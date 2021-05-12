@@ -2195,7 +2195,7 @@ class PlayState extends MusicBeatState
 			goodNoteHit(note);
 		else
 		{
-			badNoteCheck();
+			goodNoteHit(note);
 		}
 	}
 
